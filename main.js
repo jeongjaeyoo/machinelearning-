@@ -1,7 +1,10 @@
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("mySidenav").style.width = "250px";
+    console.log("정상작동");
   }
   
-  function closeNav() {
+
+function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+

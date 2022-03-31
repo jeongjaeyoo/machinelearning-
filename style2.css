@@ -1,0 +1,178 @@
+
+body {
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+      "Helvetica", "Arial", sans-serif;
+      margin: none;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color:white;
+  }
+  
+  a:hover {
+   color:turquoise
+  }
+  
+  nav {
+    width: 100%;
+    height: 44px;
+    background-color: black;
+    color: white;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .hambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+  }
+  
+  .nav-button {
+    border: none;
+    background: none;
+    color: white;
+  }
+  
+  main {
+    width: 100%;
+    height: 900px;
+    background-image: url(https://media.istockphoto.com/photos/blue-mesh-gradient-blurred-motion-abstract-background-picture-id1185747322?k=20&m=1185747322&s=612x612&w=0&h=Sy7s4nSTKEbDFY1HRAijhMJVRZd4_9rACOOjkkNa5bs=);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .main-button {
+    height: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+  }
+  
+  .button-item {
+  align-items: center;
+  background: #FFFFFF;
+  border: 0 solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1A202C;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  height: 80px;
+  justify-content: center;
+  line-height: 24px;
+  overflow-wrap: break-word;
+  padding: 24px;
+  text-decoration: none;
+  width: 50rem;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 50px;
+  
+  }
+  
+  .main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.brunswickgroup.com/media/3799/shutterstock_401061052.jpg);
+  }
+  
+  .main-title {
+    text-align: center;
+  
+    font-size: 150px;
+  }
+  .main-item {
+    height: 100%;
+    text-decoration: none;
+    color: black;
+  }
+  .main-item:hover {
+    color: black;
+  }
+  footer {
+    width: 100%;
+    height: 114px;
+    background-color: black;
+    color: white;
+  }
+  
+  .footer {
+    display:flex;
+    justify-content:space-evenly;
+  }
+  
+  .footer-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-item {
+    
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+    
+    
+  }
+  
+  .col {
+    
+  }
+  
+  .footer-bar2 {
+    margin-left: 55em;
+    
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
